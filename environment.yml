@@ -1,0 +1,13 @@
+name: ml_projects_general_py310
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - numpy
+  - statsmodels
+  - joblib
+  - fastparquet

@@ -1,0 +1,29 @@
+# --- OS cruft (global) ---
+.DS_Store
+Thumbs.db
+
+# --- Python / environments ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.conda/
+.env
+.env.*
+
+# --- Jupyter (global) ---
+.ipynb_checkpoints/
+
+# --- Data: ignore contents of private/large dirs, keep placeholders ---
+data/raw/**
+!data/raw/.gitkeep
+
+# --- Outputs: we DO commit figures and HTML ---
+# Only ignore obvious temp/junk if they appear
+outputs/**/*.tmp
+outputs/**/*.bak
+
+# --- Keep directory placeholders anywhere ---
+!.gitkeep

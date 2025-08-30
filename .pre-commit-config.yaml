@@ -1,0 +1,13 @@
+repos:
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.7.1
+    hooks:
+      - id: nbstripout
+        # optional: also strip the execution counts & metadata (default behavior already does)
+        # args: ["--extra-keys=metadata.kernelspec,metadata.language_info"]
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-added-large-files
+        args: ["--maxkb=2048"]   # prevent huge binaries from sneaking in
