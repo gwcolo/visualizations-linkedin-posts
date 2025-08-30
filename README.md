@@ -12,6 +12,7 @@ Quick Notes:
 - Notebooks 
     - Notebooks are titled by date of the LinkedIn post.
     - Outputs are scrubbed to keep it clean
+    - Dates of "NNNN-" just mean it's a work in progress and/or I haven't decided when to publish it yet.
 - Figures
     - Stored in outputs, so you can see the results from github
 - Data
