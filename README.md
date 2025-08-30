@@ -18,7 +18,9 @@ Quick Notes:
     - I try to avoid putting a lot of data in my repos.
     - Where possible I'll aim to call or generate the data in-notebook
     - If a small bit of example data is available, I'll put it in the "data/sample" folder.
-
+- Envs
+    - Everything I'm using is pretty standard. So these notebooks should probably run on whatever environment you're already using.
+    - I'm inlcuding both a requirements.txt and an environment.yml, depending on people's preferences.
 ---
 
 ## Structure
